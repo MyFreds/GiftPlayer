@@ -1,0 +1,34 @@
+name: GiftPlayer
+api: 5.0.0
+main: Fred\GiftPlayer\Main
+version: 1.0.0
+author: Fred
+
+commands:
+  gift:
+    description: "Send a gift to a Player"
+    permission: giftplayer.use
+  giftblock:
+    description: "Block a player from sending you gifts"
+    permission: giftplayer.block
+  giftunblock:
+    description: "Unblock a player to receive gifts from them"
+    permission: giftplayer.unblock
+  giftblocklist:
+    description: "View the list of the blocked players"
+    permission: giftplayer.blocklist
+  gifthelp:
+    description: "Display this help message"
+    permission: giftplayer.help
+    
+permissions:
+  giftplayer.use:
+    default: true
+  giftplayer.block:
+    default: true
+  giftplayer.unblock:
+    default: true
+  giftplayer.blocklist:
+    default: true
+  giftplayer.help:
+    default: true
