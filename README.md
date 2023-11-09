@@ -4,7 +4,7 @@
 [![Lint](https://poggit.pmmp.io/ci.shield/MyFreds/GiftPlayer/GiftPlayer)](https://poggit.pmmp.io/ci/MyFreds/GiftPlayer/GiftPlayer)
 [![Discord](https://img.shields.io/discord/979551565415346297.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/pKA9njAwyX)
 
-# ✨ The function of the PocketMine-MP plugin is to provide prizes in the form of items or blocks that are held to the target player
+[b]✨ The function of the PocketMine-MP plugin is to provide prizes in the form of items or blocks that are held to the target player[/b]
 
 # Config
 
