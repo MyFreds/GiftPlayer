@@ -12,5 +12,7 @@
 #Soon Update
 ```
 
-#TODO
-[ ] ```/giftall <player>``` # Gift All item in yout inventory to target player
+# TODO
+[ ] Added the ability to edit all messages via configuration.
+[ ] ```/giftreload``` # Added command to reload GiftPlayer configuration 
+[ ] ```/giftall <player>``` # Gift All item in your inventory to target player
