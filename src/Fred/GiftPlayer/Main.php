@@ -168,5 +168,6 @@ class Main extends PluginBase {
                 $sender->sendMessage($this->getConfig()->get("messages")["gifthelp"]);
                 return true;
             }
+           return true;
         }
     }
