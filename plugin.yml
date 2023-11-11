@@ -1,7 +1,7 @@
 name: GiftPlayer
 api: 5.0.0
 main: Fred\GiftPlayer\Main
-version: 1.0.0
+version: 1.1.0
 author: Fred
 
 commands:
