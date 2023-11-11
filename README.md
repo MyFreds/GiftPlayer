@@ -9,10 +9,31 @@
 # Config
 
 ```yaml
-#Soon Update
+messages:
+  player_not_found: "§l§eGiftPlayer: §r§cPlayer not found: §6{player}"
+  
+  not_enough_item: "§l§eGiftPlayer: §r§cYou don't have enough of that item in your hand."
+  
+  blocked_by_player: "§l§eGiftPlayer: §r§cYou are blocked by §6{player}. §cGift canceled."
+  
+  gave_gift: "§l§eGiftPlayer: §r§fYou gave §6{player} §e{amount} {itemName}"
+  
+  received_gift: "§l§eGiftPlayer: §r§fYou received a gift from §6{sender}: §e{amount} {itemName} §7» §b{message}"
+  
+  blocked_player: "§l§eGiftPlayer: §r§fYou have blocked §6{blockedPlayerName}."
+  
+  unblocked_player: "§l§eGiftPlayer: §r§fYou have unblocked §6{unblockedPlayerName}."
+  
+  not_blocked_player: "§l§eGiftPlayer: §r§c{unblockedPlayerName} is not blocked."
+  
+  blocked_players_list: "§l§eGiftPlayer: §r§fYou have blocked the following players: §6{blockedPlayers}"
+  
+  no_blocked_players: "§l§eGiftPlayer: §r§fYou have not blocked any players."
+  
+  gifthelp: "§7---------------- §l§6GIFTPLAYER §r§6COMMANDS §7----------------\n§e/gift §f<player> <amount> hand <message> §7# Send a gift to a player.\n§e/giftblock §f<player> §7# Block a player from sending you gifts.\n§e/giftunblock §f<player> §7# Unblock a player to receive gifts from them.\n§e/giftblocklist §7# View the list of blocked players.\n§e/gifthelp §7# Display this help message."
 ```
 
 # TODO
-- [ ] Added the ability to edit all messages via configuration.
+- [x] Added the ability to edit all messages via configuration.
 - [ ] ```/giftreload``` # Added command to reload GiftPlayer configuration 
 - [ ] ```/giftall <player>``` # Gift All item in your inventory to target player
